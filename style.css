@@ -1,0 +1,44 @@
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    /* background-color: gray; */
+    padding: 25px;
+    border-radius: 5px;
+}
+.input-group{
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+.button-center{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 50%;
+}
+
+#countries-card > div{
+    border: 1px solid black;
+    margin: 1rem;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#countries-card > div > img{
+    border: 1px solid black;
+}
+#countries-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
